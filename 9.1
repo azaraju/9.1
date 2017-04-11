@@ -1,0 +1,51 @@
+Q1:
+Pig is application that runs on top of MapReduce and abstracts Java MapReduce jobs away from developers.
+Pig Latin uses a lot fewer lines of code than the Java MapReduce script.
+The Pig Latin script was is easier to read for someone without a Java background.
+MapReduce jobs can written in Pig Latin.
+Java is a great and powerful language, but it has a higher learning curve than something like Pig Latin. 
+Therefore, using a higher-level language, like Pig Latin,
+enables many more developers/analysts to write MapReduce jobs.
+
+Q2:
+Hadoop MapReduce is a compiled language whereas Apache Pig is a scripting language and Hive is a SQL like query language.
+Pig and Hive provide higher level of abstraction whereas Hadoop MapReduce provides low level of abstraction.
+Hadoop MapReduce requires more lines of code when compared to Pig and Hive. Hive requires very few lines of code when compared to Pig and Hadoop MapReduce because of its SQL like resemblance.
+Hadoop MapReduce requires more development effort than Pig and Hive.
+Pig and Hive coding approaches are slower than a fully tuned Hadoop MapReduce program.
+When using Pig and Hive for executing jobs, Hadoop developers need not worry about any version mismatch.
+There is very limited possibility for the developer to write java level bugs when coding in Pig or Hive.
+Pig has problems in dealing with unstructured data like images, videos, audio, text that is ambiguously delimited, log data, etc.
+Pig cannot deal with poor design of XML or JSON and flexible schemas.
+
+Q3:
+Finally the MapReduce jobs are submitted to Hadoop in a sorted order. Finally, 
+these MapReduce jobs are executed on Hadoop producing the desired results.
+
+Q4:
+Local Mode - To run Pig in local mode, you need access to a single machine; all files are installed and 
+run using your local host and file system.
+Mapreduce Mode - To run Pig in mapreduce mode, you need access to a Hadoop cluster and HDFS installation.
+
+Q5:
+The Grunt shell of Apache Pig is mainly used to write Pig Latin scripts. Prior to that, we can invoke any shell commands using sh and fs.
+Using sh command, we can invoke any shell commands from the Grunt shell. Using sh command from the Grunt shell, 
+we cannot execute the commands that are a part of the shell environment (ex − cd).
+
+Q6:
+Using Pig Latin, programmers can perform MapReduce tasks easily without having to type complex codes in Java.
+Apache Pig uses multi-query approach, thereby reducing the length of codes. For example, 
+an operation that would require you to type 200 lines of code (LoC) in Java can be easily 
+done by typing as less as just 10 LoC in Apache Pig. Ultimately Apache Pig reduces the development time by almost 16 times.
+Pig Latin is SQL-like language and it is easy to learn Apache Pig when you are familiar with SQL.
+Apache Pig provides many built-in operators to support data operations like 
+joins, filters, ordering, etc.
+In addition, it also provides nested data types like tuples, bags, and maps that are missing from MapReduce.
+
+Q7:
+The names of Pig Latin functions are case sensitive.
+The names of parameters (see Parameter Substitution) and all other Pig Latin keywords are case insensitive.
+Keywords LOAD, USING, AS, GROUP, BY, FOREACH, GENERATE, and DUMP are case insensitive.
+
+Q8:
+The language for this platform is called Pig Latin. Pig can execute its Hadoop jobs in MapReduce, Apache Tez, or Apache Spark.
